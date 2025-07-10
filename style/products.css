@@ -1,0 +1,11 @@
+.category .active {
+  color: #57a204;
+}
+.page-item .btn {
+  padding: 8px 15px;
+  border-radius: 0;
+}
+.page-item .active {
+  background-color: #c0fa73;
+  font-weight: 500;
+}

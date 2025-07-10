@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Manrope:wght@200..800&family=Noto+Sans+TC:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif+TC:wght@200..900&display=swap');
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: #212529;
+  display: block;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+body {
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: 16px;
+  font-family: 'Noto Sans TC', sans-serif;
+  letter-spacing: 0.05em;
+  color: #212529;
+}
+.container {
+  max-width: 1296px;
+  margin: 0 auto;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -12px;
+  margin-left: -12px;
+}
+.col-1 {
+  padding-right: 12px;
+  padding-left: 12px;
+  width: calc(100% / 12);
+}
+.col-2 {
+  padding-right: 12px;
+  padding-left: 12px;
+  width: calc(100% / 12 * 2);
+}
+.col-3 {
+  padding-right: 12px;
+  padding-left: 12px;
+  width: calc(100% / 12 * 3);
+}
+.col-4 {
+  padding-right: 12px;
+  padding-left: 12px;
+  width: calc(100% / 12 * 4);
+}
+.col-5 {
+  padding-right: 12px;
+  padding-left: 12px;
+  width: calc(100% / 12 * 5);
+}
+.col-6 {
+  padding-right: 12px;
+  padding-left: 12px;
+  width: calc(100% / 12 * 6);
+}
+.col-7 {
+  padding-right: 12px;
+  padding-left: 12px;
+  width: calc(100% / 12 * 7);
+}
+.col-8 {
+  padding-right: 12px;
+  padding-left: 12px;
+  width: calc(100% / 12 * 8);
+}
+.col-9 {
+  padding-right: 12px;
+  padding-left: 12px;
+  width: calc(100% / 12 * 9);
+}
+.col-10 {
+  padding-right: 12px;
+  padding-left: 12px;
+  width: calc(100% / 12 * 10);
+}
+.col-11 {
+  padding-right: 12px;
+  padding-left: 12px;
+  width: calc(100% / 12 * 11);
+}
+.col-12 {
+  padding-right: 12px;
+  padding-left: 12px;
+  width: 100%;
+}
+.h2 {
+  font-size: 32px;
+  line-height: 1.2;
+  font-weight: 700;
+}
+.h3 {
+  font-size: 28px;
+  line-height: 1.2;
+  font-weight: 700;
+}
+.h4 {
+  font-size: 24px;
+  line-height: 1.2;
+  font-weight: 700;
+}
+.h5 {
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 700;
+}
+.h6 {
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 700;
+}
+.d-flex {
+  display: flex;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.flex-column {
+  flex-direction: column;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-center {
+  justify-content: center;
+}
+.align-center {
+  align-items: center;
+}
+.gap-8 {
+  gap: 8px;
+}
+.py-12 {
+  padding: 12px 0;
+}
+.py-16 {
+  padding: 16px 0;
+}
+.py-24 {
+  padding: 24px 0;
+}
+.py-32 {
+  padding: 32px 0;
+}
+.py-48 {
+  padding: 48px 0;
+}
+.py-64 {
+  padding: 64px 0;
+}
+.p-12 {
+  padding: 12px;
+}
+.pt-32 {
+  padding-top: 32px;
+}
+.me-2 {
+  margin-right: 2px;
+}
+.me-8 {
+  margin-right: 8px;
+}
+.me-24 {
+  margin-right: 24px;
+}
+.me-48 {
+  margin-right: 48px;
+}
+.me-40 {
+  margin-right: 40px;
+}
+.mb-12 {
+  margin-bottom: 12px;
+}
+.mb-4 {
+  margin-bottom: 4px;
+}
+.mb-8 {
+  margin-bottom: 8px;
+}
+.mb-16 {
+  margin-bottom: 16px;
+}
+.mb-24 {
+  margin-bottom: 24px;
+}
+.mb-32 {
+  margin-bottom: 32px;
+}
+.mb-40 {
+  margin-bottom: 40px;
+}
+.mb-48 {
+  margin-bottom: 48px;
+}
+.mb-64 {
+  margin-bottom: 64px;
+}
+.bg-primary-200 {
+  background-color: #e8fec5;
+}
+.bg-neutral-100 {
+  color: #f8f9fa;
+}
+.text-primary-400 {
+  color: #57a203;
+}
+.text-neutral-500 {
+  color: #adb5bd;
+}
+.text-neutral-600 {
+  color: #6c757d;
+}
+.text-danger-300 {
+  color: #d74f4f;
+}
+.text-sm {
+  font-size: 14px;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  content: '/';
+  padding: 0 12px;
+  color: #dee2e6;
+  font-size: 700;
+}
+.breadcrumb-item {
+  display: flex;
+}
+.breadcrumb-link {
+  color: #6c757d;
+}
+.btn {
+  border-radius: 4px;
+  padding: 12px 24px;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 500;
+  border: none;
+  background-color: transparent;
+}
+.btn-dark {
+  background: #212529;
+  color: white;
+}
+.btn-light {
+  border: 1px solid #212529;
+}
+.fw-500 {
+  font-weight: 500;
+}
+.border-neutral-300 {
+  border-top: 1px solid #dee2e6;
+}

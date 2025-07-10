@@ -1,0 +1,136 @@
+.container {
+  max-width: 856px;
+  margin: 0 auto;
+  padding: 48px 0;
+}
+h1 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: white;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #57a203;
+}
+.mb-16 {
+  margin-bottom: 16px;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.banner {
+  position: relative;
+}
+.banner-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.banner-title p {
+  font-size: 28px;
+  line-height: 1.2;
+  font-weight: 700;
+  color: white;
+}
+.section-banner-content {
+  background-color: #f5fee7;
+  text-align: center;
+  padding: 32px;
+  border-radius: 12px;
+}
+.section-banner-content h3 {
+  margin-bottom: 12px;
+}
+.section-banner-content p:not(:last-child) {
+  margin-bottom: 4px;
+}
+.introduce-image-container {
+  max-width: 1076px;
+  margin: 0 auto;
+}
+.section-introduce {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding-bottom: 48px;
+  border-bottom: 1px solid #dee2e6;
+}
+.section-progress,
+.section-idea,
+.section-story {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 48px 0;
+  border-bottom: 1px solid #dee2e6;
+}
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+/* 品牌歷程 */
+.list-progress {
+  list-style: disc;
+  margin-left: 22px;
+}
+
+.list-progress span:nth-child(1) {
+  border-right: 1px solid #212529;
+  padding-right: 8px;
+}
+.list-progress span:nth-child(2) {
+  padding-left: 8px;
+}
+/* 品牌理念 */
+.list-idea li {
+  position: relative;
+  padding-left: 12px;
+}
+.list-idea li::before {
+  content: "";
+  width: 3px;
+  height: 24px;
+  background-color: #dee2e6;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+/* 品牌故事 */
+.list-story li a {
+  color: #57a203;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+}
+.list-story li a:hover {
+  font-weight: 700;
+}
+
+.list-story span {
+  border-bottom: 1px solid #57a203;
+}
+.theFooter {
+  background-color: #f8f9fa;
+  padding: 64px 0;
+}
+.theFooter {
+  text-align: center;
+  font-size: 14px;
+  color: #6c757d;
+}
