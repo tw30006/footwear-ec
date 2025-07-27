@@ -245,6 +245,12 @@
     padding: 0;
   }
   .py-md-16 {
+    padding: 16px 0;
+  }
+  .py-md-24 {
+    padding: 24px 0;
+  }
+  .px-md-16 {
     padding: 0 16px;
   }
   .px-md-32 {
