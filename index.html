@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
+    <title>index</title>
+    <script type="module" crossorigin src="/footer-ec/assets/main-68f68044.js"></script>
+    <link rel="stylesheet" href="/footer-ec/assets/main-ce9da33f.css">
+  </head>
+  <body>
+    <nav class="container py-12 d-flex align-center justify-between">
+  <ul class="d-flex align-center">
+    <li class="me-48">
+      <a href="index.html"
+        ><img src="data:image/png;base64,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" alt="logo"
+      /></a>
+    </li>
+    <li class="me-40 d-md-none">
+      <a href="products.html" class="py-12 fw-500">商品列表</a>
+    </li>
+    <li class="d-md-none">
+      <a href="story.html" class="py-12 fw-500">品牌故事</a>
+    </li>
+  </ul>
+  <a href="login.html" class="p-12"><i class="bi bi-person"></i></a>
+</nav>
+    <ul class="d-none d-md-flex row">
+      <li class="col-md-2 text-center bg-primary-200">
+        <a href="products.html" class="py-12 fw-500">商品列表</a>
+      </li>
+      <li class="col-md-2 text-center bg-primary-100">
+        <a href="story.html" class="py-12 fw-500">品牌故事</a>
+      </li>
+    </ul>
+    <div class="banner">
+      <div class="banner-content">
+        <h2 class="fw-700">URBNSTEP</h2>
+        <p class="fw-700 mb-48 mb-md-32">Your Step, Your Statement</p>
+        <a href="#" class="btn btn-primary">立即選購</a>
+      </div>
+    </div>
+    <section class="container">
+      <div class="py-64 py-md-40">
+        <div class="text-center mb-32 mb-md-24">
+          <h2 class="fw-700 text-48 text-md-32">New Arrival</h2>
+          <p class="h2 text-md-24">新品上市</p>
+        </div>
+        <div class="row">
+          <div class="col-6 col-md-2">
+            <ul>
+              <li class="mb-40 mb-md-24">
+                <img
+                  src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/new-1.png?raw=true"
+                  alt="Monoverse"
+                  class="mb-12"
+                />
+                <h3 class="text-20 fw-700">Monoverse</h3>
+                <p class="fw-500">NT$3,600</p>
+              </li>
+              <li>
+                <img
+                  src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/new-3.png?raw=true"
+                  alt="URBN Force"
+                  class="mb-12"
+                />
+                <h3 class="text-20 fw-700">URBN Force</h3>
+                <p class="fw-500">NT$3,200</p>
+              </li>
+            </ul>
+          </div>
+          <div class="col-6 col-md-2">
+            <ul>
+              <li class="mb-40 mb-md-24">
+                <img
+                  src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/new-2.png?raw=true"
+                  alt="PLATFORM 404"
+                  class="mb-12"
+                />
+                <h3 class="text-20 fw-700">PLATFORM 404</h3>
+                <p class="fw-500">NT$2,600</p>
+              </li>
+              <li>
+                <img
+                  src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/new-4.png?raw=true"
+                  alt="Mode90"
+                  class="mb-12"
+                />
+                <h3 class="text-20 fw-700">Mode90</h3>
+                <p class="fw-500">NT$4,000</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container">
+      <div class="py-64 py-md-40">
+        <h2 class="fw-700 text-32 mb-16 text-md-24">熱銷補貨</h2>
+        <ul class="row d-md-flex flex-md-nowrap overflow-md-x product-md-row">
+          <li class="col-3 product-md-col">
+            <a class="product" href="productDetail.html">
+              <span class="product-title fw-500">人氣 No.1</span>
+              <img
+                src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/product-3.png?raw=true"
+                alt="Melty Kiss"
+                class="w-full"
+              />
+            </a>
+          </li>
+          <li class="col-3 product-md-col">
+            <a class="product" href="productDetail.html">
+              <span class="product-title fw-500">人氣 No.1</span>
+              <img
+                src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/image.png?raw=true"
+                alt="PLATFORM 404"
+                class="w-full"
+              />
+            </a>
+          </li>
+          <li class="col-3 product-md-col">
+            <a class="product" href="productDetail.html">
+              <span class="product-title fw-500">人氣 No.1</span>
+              <img
+                src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/product-6.png?raw=true"
+                alt="R:UNER"
+                class="w-full"
+              />
+            </a>
+          </li>
+          <li class="col-3 product-md-col">
+            <div class="product" href="productDetail.html">
+              <span class="product-title fw-500">人氣 No.1</span>
+              <img
+                src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/product-4.png?raw=true"
+                alt="BOOMBLOK"
+                class="w-full"
+              />
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="py-48 py-md-24">
+      <div class="bg">
+        <div class="decorate-one d-none d-md-block">
+          <img src="/footer-ec/assets/Star-436f663f.png" alt="star" />
+        </div>
+        <div class="decorate-two d-none d-md-block">
+          <img src="/footer-ec/assets/Sparkle-96b5a4fd.png" alt="Sparkle" />
+        </div>
+        <div class="bg-content d-flex justify-center align-center">
+          <div class="d-flex flex-column align-center px-md-12">
+            <div
+              class="d-flex flex-column-md align-center gap-24 gap-0-md mb-md-16"
+            >
+              <h2 class="text-48 fw-700 text-md-32">URBNSTEP</h2>
+              <span class="text-40 fw-700 text-primary-300 text-md-28">x</span>
+              <h2 class="text-48 fw-700 text-md-32">Kevin Chen</h2>
+            </div>
+            <h3 class="text-32 mb-32 text-md-20 mb-md-24">
+              跨界聯名，限量發售
+            </h3>
+            <p
+              class="text-20 text-neutral-500 mb-48 text-md-16 text-center-md mb-md-32 px-md-24"
+            >
+              新銳漫畫家 Kevin Chen 親自操刀設計，街頭能量全面引爆！
+            </p>
+            <a href="#" class="btn btn-primary">立即搶購</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container">
+      <div class="py-64 py-md-40">
+        <h2 class="fw-700 text-32 mb-16 text-md-24">依系列選購</h2>
+        <ul class="row">
+          <li class="col-3 col-md-2 mb-md-12">
+            <a class="relative">
+              <img
+                src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/product-6.png?raw=true"
+                alt="R:UNER"
+              />
+              <div class="mock"></div>
+              <div class="text-center mock-content">
+                <h4 class="h3 mb-8 text-md-16 mock-content-title">
+                  URBN RUNNER
+                </h4>
+                <h4 class="h3 text-md-16">慢跑系列</h4>
+              </div>
+            </a>
+          </li>
+          <li class="col-3 col-md-2 mb-md-12">
+            <a class="relative">
+              <img
+                src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/image.png?raw=true"
+                alt="PLATFORM 404"
+              />
+              <div class="mock"></div>
+              <div class="text-center mock-content">
+                <h4 class="h3 mb-8 text-md-16 mock-content-title">
+                  STREETMODE
+                </h4>
+                <h4 class="h3 text-md-16">滑板系列</h4>
+              </div>
+            </a>
+          </li>
+          <li class="col-3 col-md-2">
+            <a class="relative">
+              <img
+                src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/product-4.png?raw=true"
+                alt="BOOMBLOK"
+              />
+              <div class="mock"></div>
+              <div class="text-center mock-content">
+                <h4 class="h3 mb-8 text-md-16 mock-content-title">
+                  CHUNK DISTRICT
+                </h4>
+                <h4 class="h3 text-md-16">厚底系列</h4>
+              </div>
+            </a>
+          </li>
+          <li class="col-3 col-md-2">
+            <a class="relative">
+              <img
+                src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/product-10.png?raw=true"
+                alt="BOOMBLOK"
+              />
+              <div class="mock"></div>
+              <div class="text-center mock-content">
+                <h4 class="h3 mb-8 text-md-16 mock-content-title">
+                  COLLAB ZONE
+                </h4>
+                <h4 class="h3 text-md-16">聯名企劃</h4>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="py-64 py-md-40 mb-48 mb-md-24">
+      <div class="container">
+        <h2 class="fw-700 text-32 mb-16 text-md-24">穿搭靈感</h2>
+        <div class="inspiration-row overflow-md-x">
+          <div class="inspiration-col-4">
+            <div class="inspiration-row">
+              <div class="inspiration-col-6">
+                <img
+                  src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/inspiration-1.png?raw=true"
+                  alt="inspiration-1"
+                />
+              </div>
+              <div class="inspiration-col-6">
+                <img
+                  src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/inspiration-2.png?raw=true"
+                  alt="inspiration-2"
+                />
+              </div>
+              <div class="inspiration-col-12">
+                <img
+                  src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/inspiration-3.png?raw=true"
+                  alt="inspiration-3"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="inspiration-col-4">
+            <div class="inspiration-row">
+              <div class="inspiration-col-6">
+                <img
+                  src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/inspiration-4.png?raw=true"
+                  alt="inspiration-4"
+                />
+              </div>
+              <div class="inspiration-col-6">
+                <img
+                  src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/inspiration-5.png?raw=true"
+                  alt="inspiration-5"
+                />
+              </div>
+              <div class="inspiration-col-6">
+                <img
+                  src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/inspiration-6.png?raw=true"
+                  alt="inspiration-6"
+                />
+              </div>
+              <div class="inspiration-col-6">
+                <img
+                  src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/inspiration-7.png?raw=true"
+                  alt="inspiration-7"
+                />
+              </div>
+              <div class="inspiration-col-6">
+                <img
+                  src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/inspiration-8.png?raw=true"
+                  alt="inspiration-8"
+                />
+              </div>
+              <div class="inspiration-col-6">
+                <img
+                  src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/inspiration-9.png?raw=true"
+                  alt="inspiration-9"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="inspiration-col-4">
+            <div class="inspiration-row">
+              <div class="inspiration-col-12">
+                <img
+                  src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/inspiration-10.png?raw=true"
+                  alt="inspiration-10"
+                />
+              </div>
+              <div class="inspiration-col-6">
+                <img
+                  src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/inspiration-11.png?raw=true"
+                  alt="inspiration-11"
+                />
+              </div>
+              <div class="inspiration-col-6">
+                <img
+                  src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/inspiration-12.png?raw=true"
+                  alt="inspiration-12"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="d-flex justify-center align-center bg-primary-200 py-24">
+  <p class="h4 me-24 h5-sm me-sm-16">加入會員取得 9 折優惠</p>
+  <a href="register.html" class="btn btn-dark btn-md">馬上註冊</a>
+</div>
+<footer class="py-64 bg-neutral-100 py-sm-32">
+  <div class="container">
+    <nav class="container py-16 d-flex align-center justify-between d-sm-block">
+      <a href="#" class="mb-sm-8">
+        <img src="data:image/png;base64,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" alt="logo" />
+      </a>
+      <ul class="d-flex d-sm-block px-sm-12">
+        <li class="me-40 mb-sm-4 me-sm-0">
+          <a href="products.html" class="py-12 fw-500">商品列表</a>
+        </li>
+        <li><a href="story.html" class="py-12 fw-500">品牌故事</a></li>
+      </ul>
+    </nav>
+    <div class="copyright">
+      <p class="mb-4">Copyright ©2025 URBNSTYLE</p>
+      <p>All Rights Reserved.</p>
+    </div>
+  </div>
+</footer>
+
+    <style>
+      .mySwiper {
+        height: 400px;
+      }
+    </style>
+    
+  </body>
+</html>

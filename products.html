@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
+    <title>products</title>
+    <script type="module" crossorigin src="/footer-ec/assets/main-68f68044.js"></script>
+    <link rel="stylesheet" href="/footer-ec/assets/main-ce9da33f.css">
+  </head>
+  <body>
+    <nav class="container py-12 d-flex align-center justify-between">
+  <ul class="d-flex align-center">
+    <li class="me-48">
+      <a href="index.html"
+        ><img src="data:image/png;base64,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" alt="logo"
+      /></a>
+    </li>
+    <li class="me-40 d-md-none">
+      <a href="products.html" class="py-12 fw-500">商品列表</a>
+    </li>
+    <li class="d-md-none">
+      <a href="story.html" class="py-12 fw-500">品牌故事</a>
+    </li>
+  </ul>
+  <a href="login.html" class="p-12"><i class="bi bi-person"></i></a>
+</nav>
+    <main class="container py-32 mb-48 px-md-16 py-md-16">
+      <!-- 麵包屑 -->
+      <nav class="mb-24 mb-md-12">
+        <ol class="d-flex">
+          <li class="breadcrumb-item">
+            <a href="index.html" class="breadcrumb-link fw-500">首頁</a>
+          </li>
+          <li class="breadcrumb-item fw-500">所有商品</li>
+        </ol>
+      </nav>
+      <h1 class="h3 h4-md mb-24 mb-md-12">女鞋</h1>
+      <div class="row">
+        <!-- category -->
+        <div class="col-2 d-md-none">
+          <nav>
+            <ul class="category">
+              <li class="mb-16">
+                <a href="#" class="py-12 active fw-500">所有商品</a>
+              </li>
+              <li class="mb-16"><a href="#" class="py-12 fw-500">慢跑鞋</a></li>
+              <li class="mb-16"><a href="#" class="py-12 fw-500">滑板鞋</a></li>
+              <li class="mb-16"><a href="#" class="py-12 fw-500">厚底鞋</a></li>
+              <li class="mb-16">
+                <a href="#" class="py-12 fw-500">限定 / 聯名企劃</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <!-- product-list -->
+        <div class="col-10 col-md-4">
+          <div class="row">
+            <div class="col-4 col-md-2">
+              <div class="mb-48 mb-md-24">
+                <a href="productDetail.html" class="card">
+                  <img
+                    src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/image.png?raw=true"
+                    alt="PLATFORM 404"
+                    class="mb-12 mb-md-8"
+                  />
+                  <h2 class="h6 mb-4 mb-md-0">PLATFORM 404</h2>
+                  <p>NT$2,600</p>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-4 col-md-2">
+              <div class="mb-48 mb-md-24">
+                <a href="productDetail.html" class="card">
+                  <img
+                    src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/product-1.png?raw=true"
+                    alt="PLATFORM 404"
+                    class="mb-12 mb-md-8"
+                  />
+                  <h2 class="h6 mb-4 mb-md-0">PLATFORM 404</h2>
+                  <p>NT$2,600</p>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-4 col-md-2">
+              <div class="mb-48 mb-md-24">
+                <a href="productDetail.html" class="card">
+                  <img
+                    src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/product-2.png?raw=true"
+                    alt="VM001"
+                    class="mb-12 mb-md-8"
+                  />
+                  <h2 class="h6 mb-4 mb-md-0">VM001</h2>
+                  <p>NT$2,600</p>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-4 col-md-2">
+              <div class="mb-48 mb-md-24">
+                <a href="productDetail.html" class="card">
+                  <img
+                    src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/product-3.png?raw=true"
+                    alt="Melty Kiss"
+                    class="mb-12 mb-md-8"
+                  />
+                  <h2 class="h6 mb-4 mb-md-0">Melty Kiss</h2>
+                  <p>NT$4,000</p>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-4 col-md-2">
+              <div class="mb-48 mb-md-24">
+                <a href="productDetail.html" class="card">
+                  <img
+                    src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/product-4.png?raw=true"
+                    alt="BOOMBLOK"
+                    class="mb-12 mb-md-8"
+                  />
+                  <h2 class="h6 mb-4 mb-md-0">BOOMBLOK</h2>
+                  <p>NT$3,200</p>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-4 col-md-2">
+              <div class="mb-48 mb-md-24">
+                <a href="productDetail.html" class="card">
+                  <img
+                    src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/product-5.png?raw=true"
+                    alt="BOOMBLOK"
+                    class="mb-12 mb-md-8"
+                  />
+                  <h2 class="h6 mb-4 mb-md-0">BOOMBLOK</h2>
+                  <p>NT$3,200</p>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-4 col-md-2">
+              <div class="mb-48 mb-md-24">
+                <a href="productDetail.html" class="card">
+                  <img
+                    src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/product-6.png?raw=true"
+                    alt="R:UNER"
+                    class="mb-12 mb-md-8"
+                  />
+                  <h2 class="h6 mb-4 mb-md-0">R:UNER</h2>
+                  <p>NT$4,000</p>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-4 col-md-2">
+              <div class="mb-48 mb-md-24">
+                <a href="productDetail.html" class="card">
+                  <img
+                    src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/product-7.png?raw=true"
+                    alt="Sugar Snap"
+                    class="mb-12 mb-md-8"
+                  />
+                  <h2 class="h6 mb-4 mb-md-0">Sugar Snap</h2>
+                  <p>NT$4,000</p>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-4 col-md-2">
+              <div class="mb-48 mb-md-32">
+                <a href="productDetail.html" class="card">
+                  <img
+                    src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/product-8.png?raw=true"
+                    alt="Neofoam"
+                    class="mb-12 mb-md-8"
+                  />
+                  <h2 class="h6 mb-4 mb-md-0">Neofoam</h2>
+                  <p>NT$4,000</p>
+                </a>
+              </div>
+            </div>
+            <div class="col-4 col-md-2 d-none d-md-block">
+              <div class="mb-48 mb-md-32">
+                <a href="productDetail.html" class="card">
+                  <img
+                    src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/product-9.png?raw=true"
+                    alt="Buttermood"
+                    class="mb-12 mb-md-8"
+                  />
+                  <h2 class="h6 mb-4 mb-md-0">Buttermood</h2>
+                  <p>NT$4,000</p>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- pagination -->
+          <ul class="d-flex justify-center align-center">
+            <li class="me-12 page-item">
+              <button type="button" class="btn" disabled>
+                <i class="bi bi-chevron-left"></i>
+              </button>
+            </li>
+            <li class="me-8 page-item">
+              <button type="button" class="btn active">1</button>
+            </li>
+            <li class="me-8 page-item">
+              <button type="button" class="btn">2</button>
+            </li>
+            <li class="me-8 page-item">
+              <button type="button" class="btn">3</button>
+            </li>
+            <li class="me-8 page-item">...</li>
+            <li class="me-8 page-item">
+              <button type="button" class="btn">10</button>
+            </li>
+            <li class="page-item">
+              <button type="button" class="btn">
+                <i class="bi bi-chevron-right"></i>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </main>
+    <div class="d-flex justify-center align-center bg-primary-200 py-24">
+  <p class="h4 me-24 h5-sm me-sm-16">加入會員取得 9 折優惠</p>
+  <a href="register.html" class="btn btn-dark btn-md">馬上註冊</a>
+</div>
+<footer class="py-64 bg-neutral-100 py-sm-32">
+  <div class="container">
+    <nav class="container py-16 d-flex align-center justify-between d-sm-block">
+      <a href="#" class="mb-sm-8">
+        <img src="data:image/png;base64,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" alt="logo" />
+      </a>
+      <ul class="d-flex d-sm-block px-sm-12">
+        <li class="me-40 mb-sm-4 me-sm-0">
+          <a href="products.html" class="py-12 fw-500">商品列表</a>
+        </li>
+        <li><a href="story.html" class="py-12 fw-500">品牌故事</a></li>
+      </ul>
+    </nav>
+    <div class="copyright">
+      <p class="mb-4">Copyright ©2025 URBNSTYLE</p>
+      <p>All Rights Reserved.</p>
+    </div>
+  </div>
+</footer>
+
+    
+  </body>
+</html>
