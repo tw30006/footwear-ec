@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
+    <title>login</title>
+  </head>
+  <body>
+    <%- include('./layout/header'); -%>
+    <main class="container my-64 my-md-32">
+      <div class="row">
+        <div class="col-5 col-md-4">
+          <img
+            src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/login.png?raw=true"
+            alt="logo"
+            class="d-md-none"
+          />
+        </div>
+        <div class="col-7 col-md-4 login-bg d-flex align-center justify-center">
+          <div class="d-flex flex-column align-center">
+            <h2 class="h3 mb-32 mb-md-24">歡迎！</h2>
+            <ul class="d-flex justify-between mb-32 mb-md-24">
+              <li><a href="login.html" class="login-link active">登入</a></li>
+              <li><a href="register.html" class="register-link">註冊</a></li>
+            </ul>
+            <ul class="thirdParty-links">
+              <li class="thirdParty-link mb-8">
+                <a
+                  href="#
+                    "
+                  class="d-flex align-center"
+                  ><img
+                    src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/8719e07a34f05b853e98e1402ed748446fdd8ef3/2025-week3-4/facebook.svg"
+                    alt="fb-icon"
+                    class="me-12"
+                  />
+                  <p>Facebook 登入</p></a
+                >
+              </li>
+              <li class="thirdParty-link mb-8">
+                <a
+                  href="#
+                    "
+                  class="d-flex align-center"
+                  ><img
+                    src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/8719e07a34f05b853e98e1402ed748446fdd8ef3/2025-week3-4/apple.svg"
+                    alt="apple-icon"
+                    class="me-12"
+                  />
+                  <p>Apple 登入</p></a
+                >
+              </li>
+              <li class="thirdParty-link">
+                <a
+                  href="#
+                    "
+                  class="d-flex align-center"
+                  ><img
+                    src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/8719e07a34f05b853e98e1402ed748446fdd8ef3/2025-week3-4/google.svg"
+                    alt="google-icon"
+                    class="me-12"
+                  />
+                  <p>Google 登入</p></a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </main>
+    <%- include('./layout/footer'); -%>
+
+    <script type="module" src="../main.js"></script>
+  </body>
+</html>
