@@ -1,0 +1,31 @@
+.truck-icon {
+  font-size: 24px;
+}
+.check-icon {
+  color: #477a11;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+}
+.check-bg {
+  width: 40px;
+  height: 40px;
+  background-color: #c0fa73;
+  border-radius: 50%;
+}
+.w-120 {
+  max-width: 120px;
+  height: 120px;
+}
+.border-b {
+  border-bottom: 1px solid #dee2e6;
+}
+.btn-reserve {
+  text-align: center;
+  width: 100%;
+  max-width: 182px;
+  margin: 0 auto;
+  text-wrap: nowrap;
+}

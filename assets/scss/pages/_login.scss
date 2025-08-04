@@ -1,0 +1,49 @@
+.login-bg {
+  background-image: url('https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/login-bg.png?raw=true');
+  /* padding: 120px 80px; */
+  border-radius: 12px;
+}
+
+.login-link {
+  padding: 12px 130px;
+  border-bottom: 2px solid #dee2e6;
+  color: #6c757d;
+}
+.register-link {
+  padding: 12px 130px;
+  border-bottom: 2px solid #dee2e6;
+  color: #6c757d;
+}
+.thirdParty-links {
+  width: 100%;
+}
+.thirdParty-link {
+  background: #ffffff;
+  text-align: left;
+  padding: 12px 0 12px 12px;
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+}
+
+.login-link.active,
+.register-link.active {
+  font-weight: 700;
+  color: #212529;
+  border-bottom: 2px solid #212529;
+}
+
+@media (max-width: 767px) {
+  .login-bg {
+    background-image: none;
+    border-radius: 0;
+  }
+  .login-link {
+    padding: 12px 72px;
+  }
+  .register-link {
+    padding: 12px 72px;
+  }
+  .thirdParty-links {
+    width: 100%;
+  }
+}

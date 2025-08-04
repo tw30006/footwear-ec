@@ -7,6 +7,11 @@
   width: calc(100% / 12 * 6);
   padding: 0 4px;
 }
+@media (max-width: 768px) {
+  .product-col {
+    width: 100%;
+  }
+}
 .del-price {
   font-size: 14px;
   font-weight: 400;
@@ -31,13 +36,28 @@
   display: flex;
   gap: 8px;
 }
+
 .product-action .btn {
   width: 50%;
 }
 .product-action .bi {
   padding-right: 8px;
 }
-
+@media (max-width: 768px) {
+  .product-action {
+    display: none;
+  }
+  .product-md-btn {
+    width: 292px;
+    height: 48px;
+  }
+  .heart-md-btn {
+    width: 48px;
+    .bi-heart {
+      font-size: 24px;
+    }
+  }
+}
 .product-info-title {
   font-weight: 500;
 }

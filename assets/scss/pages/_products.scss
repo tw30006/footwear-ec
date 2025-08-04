@@ -1,0 +1,19 @@
+.category .active {
+  color: #57a204;
+}
+.page-item {
+  & .btn {
+    padding: 8px 15px;
+    border-radius: 0;
+  }
+  & .btn:hover {
+    background-color: #f8f9fa;
+  }
+  & .active {
+    background-color: #c0fa73;
+    font-weight: 500;
+  }
+}
+.card img:hover {
+  opacity: 0.8;
+}
