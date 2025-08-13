@@ -1,5 +1,5 @@
 .banner {
-  background-image: url('https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/banner.png?raw=true');
+  background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/banner.png?raw=true");
   background-repeat: no-repeat;
   background-size: contain;
   aspect-ratio: 1920/800;
@@ -8,6 +8,7 @@
   padding-top: 15%;
   padding-left: 5%;
 }
+
 .banner-content h2 {
   font-size: 64px;
   line-height: 1.2;
@@ -27,13 +28,14 @@
   color: #477a11;
 }
 .bg {
-  background-image: url('https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/banner-co-branded.png?raw=true');
+  background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/banner-co-branded.png?raw=true");
   aspect-ratio: 1920/470;
   background-size: cover;
   background-repeat: no-repeat;
 }
 .bg-content {
-  height: 100%;
+  // height: 100%;
+  height: 470px;
   color: #ffffff;
 }
 .mock {
@@ -103,14 +105,18 @@
 
 @media (max-width: 767px) {
   .banner {
-    background-image: url('https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/banner-sm.png?raw=true');
+    background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/banner-sm.png?raw=true");
     background-repeat: no-repeat;
     background-size: contain;
     aspect-ratio: 375/480;
   }
   .banner-content {
-    padding-top: 45%;
-    padding-left: 24px;
+    padding-top: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
   }
   .banner-content h2 {
     font-size: 48px;
@@ -119,7 +125,7 @@
     font-size: 20px;
   }
   .bg {
-    background-image: url('https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/banner-co-branded-sm.png?raw=true');
+    background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/banner-co-branded-sm.png?raw=true");
     aspect-ratio: 375/450;
     position: relative;
   }
